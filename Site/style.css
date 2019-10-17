@@ -1,0 +1,89 @@
+/*Organizar os 3 blocos em linha*/
+#tresblocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+/*Estilo dos 3 blocos */
+.blocos {
+    border: 2px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+
+#titulo {
+    border-bottom: 2px solid gray;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Estilo dos "p" em geral*/
+
+p{
+    margin: 2%;
+}
+
+p.lead{
+    margin: 0;
+}
+/*estilo da div q será criada*/
+
+
+
+
+/*Div em branco para criar um espaço*/
+#branco {
+    padding-top: 11%;
+}
+
+
+.oculto {
+    display: none;
+}
+
+.aparecer {
+    display: block;
+}
+
+#input {
+    margin-top: 2%;
+}
+
+.btn-group {
+    display: block !important;
+
+}
+#fazer{
+    border-color: blue;
+}
+#fazendo{
+    border-color: goldenrod;
+}
+
+#feito{
+    border-color:green;
+}
+
+
+@media (min-width: 300px) and (max-width: 500px){
+    .blocos {
+        border: 2px solid black;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2%;
+    }
+    #tresblocos{
+        display: block;
+
+    }
+}
+
+
